@@ -988,7 +988,7 @@ a:hover {
 
 @media only screen and (max-width: 50em) {
 	.navbar {
-		background: #E1E7F3;
+		background: #494dbe;
 		position: fixed !important;
 	}
 	.brand-box h2 {
@@ -1109,7 +1109,7 @@ a:hover {
 		height: 2.75rem;
 	}
 
-	.ad {
+	.ad,.banner3 {
 		margin-top: 3.75rem;
 	}
 }
@@ -1215,7 +1215,7 @@ a:hover {
 		height: 2.75rem;
 	}
 
-	.ad {
+	.ad,.banner3 {
 		margin-top: 3.75rem;
 	}
 

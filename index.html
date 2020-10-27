@@ -56,6 +56,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="item section1 banner3">
+		<img style="position: unset;" class="bg-img" src="images/banner/banner3.jpg"/>
+	</div>
 	<div class="item section1">
 		<img style="position: unset;" class="bg-img" src="images/banner/banner2.jpg"/>
 	</div>
@@ -77,6 +80,13 @@
 		if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
 			new WOW().init();
 		};
+		$('.banner3').hide();
+		var sUserAgent = navigator.userAgent.toLowerCase();
+		if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+				//跳转移动端页面
+				$('.ad').hide();
+				$('.banner3').show();
+		}
 	</script>
 </body>
 
