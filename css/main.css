@@ -958,7 +958,7 @@ a:hover {
 	top: 3.75rem;
 	width: 200px;
 	overflow: hidden;
-	display: none;
+	/* display: none; */
 }
 
 .mobile-nav ul {
